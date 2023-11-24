@@ -1,7 +1,10 @@
 from django.shortcuts import render
+from .models import *
 
 def home(requests):
-	return render(requests,'pages/home.html')
+	teams=Teams.objects.all()
+	data = { 'teams':teams}
+	return render(requests,'pages/home.html',data)
 
 
 def about(requests):
