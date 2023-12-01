@@ -1,0 +1,818 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$600000$FZIkME9WujfIH5NSDF3hzg$s16kflf5VdwsG6KjSa7WwEB5nrK9UNWC3xwHanjMOIw=",
+        "last_login": "2023-12-01T19:27:09.829Z",
+        "is_superuser": true,
+        "username": "learner",
+        "first_name": "Adakhamjon",
+        "last_name": "Nematov",
+        "email": "learner98@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-11-28T10:40:34Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$600000$jLg5KQTeybiphOueERPZKt$UyxUdBp2ubbTCL4ZizK7gdaa7nIxn83X3XyQzyF2rrs=",
+        "last_login": "2023-12-01T17:24:10.228Z",
+        "is_superuser": false,
+        "username": "Jojo",
+        "first_name": "Joe",
+        "last_name": "Allen",
+        "email": "allen@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-11-30T16:14:52.908Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$600000$sfg9pTgLX3nl8XCYYHVVDI$HQBcEoahIvLV2TgKZ8YbqdBAA6jUf/C3jlcb1jP0qCk=",
+        "last_login": "2023-11-30T16:17:20.835Z",
+        "is_superuser": false,
+        "username": "Leo",
+        "first_name": "Martin",
+        "last_name": "Lima",
+        "email": "Leo11@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-11-30T16:17:20.168Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "!Lu8iXz25qi2ouqrl6hpbzrhJhvV7Yy99wpxK6911",
+        "last_login": "2023-12-01T11:02:54.564Z",
+        "is_superuser": false,
+        "username": "adakhamjon",
+        "first_name": "Adakhamjon",
+        "last_name": "Nematov",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-11-30T18:42:41.349Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "!F6BqKJVtimyRh47e6PttYKauY9kQ5HUr3ywUwDBX",
+        "last_login": "2023-12-01T10:51:15.086Z",
+        "is_superuser": false,
+        "username": "adakhamjon6",
+        "first_name": "Adakhamjon",
+        "last_name": "Nematov",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-12-01T10:25:48.826Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "90vajgegovpmqbif5iu6ot3p3uoxbuo8",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGlmOd_0JJX3OYK1_OIBsKU4qxN2RpRTQvpl5b-bo2Is7etrcGtmVTezyu3kKz1QHiA-q98ZDq_u2ej4UftLOlxbT63a6fweFehk1iZztTBm8DzRZhVIrERRGrRVaBE8JUJlMUlBIBlBIHckISKBxDuzzBfFEN8Q:1r8zyK:NCKEYQeyYvMRUDodDffNx838NcVZXRsCn10bFR8OukQ",
+        "expire_date": "2023-12-15T09:38:08.156Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "mm5m9ffqn71ci1aij7je09wi7rmeeh1b",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGlmOd_0JJX3OYK1_OIBsKU4qxN2RpRTQvpl5b-bo2Is7etrcGtmVTezyu3kKz1QHiA-q98ZDq_u2ej4UftLOlxbT63a6fweFehk1iZztTBm8DzRZhVIrERRGrRVaBE8JUJlMUlBIBlBIHckISKBxDuzzBfFEN8Q:1r99AL:9zTuUUUCo8OG9TvdYAXJrRrsmtWscDXSYD7AFugpGWk",
+        "expire_date": "2023-12-15T19:27:09.922Z"
+    }
+},
+{
+    "model": "pages.teams",
+    "pk": 1,
+    "fields": {
+        "first_name": "John",
+        "last_name": "Smith",
+        "designation": "Web Developer",
+        "photo": "photos/28/11/2023/avatar-1.jpg",
+        "facebook_link": "http://www.facebook.com",
+        "twitter_link": "http://www.twitter.com",
+        "google_plus": "http://www.google.com",
+        "created_date": "2023-11-28T11:33:29.998Z"
+    }
+},
+{
+    "model": "pages.teams",
+    "pk": 2,
+    "fields": {
+        "first_name": "Martin",
+        "last_name": "Nelson",
+        "designation": "Creative Director",
+        "photo": "photos/28/11/2023/avatar-3.jpg",
+        "facebook_link": "http://www.facebook.com",
+        "twitter_link": "http://www.twitter.com",
+        "google_plus": "http://www.google.com",
+        "created_date": "2023-11-28T11:34:13.727Z"
+    }
+},
+{
+    "model": "pages.teams",
+    "pk": 3,
+    "fields": {
+        "first_name": "Stone",
+        "last_name": "Miller",
+        "designation": "Manager",
+        "photo": "photos/28/11/2023/avatar-12.jpg",
+        "facebook_link": "http://www.facebook.com",
+        "twitter_link": "http://www.twitter.com",
+        "google_plus": "http://www.google.com",
+        "created_date": "2023-11-28T11:34:47.537Z"
+    }
+},
+{
+    "model": "pages.teams",
+    "pk": 4,
+    "fields": {
+        "first_name": "Michella",
+        "last_name": "Carolyn",
+        "designation": "Support Manager",
+        "photo": "photos/28/11/2023/avatar-2.jpg",
+        "facebook_link": "http://www.facebook.com",
+        "twitter_link": "http://www.twitter.com",
+        "google_plus": "http://www.google.com",
+        "created_date": "2023-11-28T11:35:10.337Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 1,
+    "fields": {
+        "car_title": "2017 Ferrari 488 GTB",
+        "state": "AND",
+        "city": "Andijan",
+        "color": "white",
+        "model": "488 GTB",
+        "year": 2017,
+        "condition": "Used",
+        "price": 120000,
+        "description": "<p>The&nbsp;<strong>Ferrari 488</strong>&nbsp;(Type F142M) is a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Rear_mid-engine,_rear-wheel_drive_layout\" title=\"Rear mid-engine, rear-wheel drive layout\">mid-engine</a>&nbsp;<a href=\"https://en.wikipedia.org/wiki/Sports_car\" title=\"Sports car\">sports car</a>&nbsp;produced by the Italian automobile manufacturer&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari\" title=\"Ferrari\">Ferrari</a>. The car replaced the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari_458\" title=\"Ferrari 458\">458</a>, being the first mid-engine Ferrari to use a turbocharged V8 since the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari_F40\" title=\"Ferrari F40\">F40</a>. It was succeeded by the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari_F8\" title=\"Ferrari F8\">Ferrari F8</a>.</p>\r\n\r\n<p>The car is powered by a 3.9-litre&nbsp;<a href=\"https://en.wikipedia.org/wiki/Twin-turbocharged\" title=\"Twin-turbocharged\">twin-turbocharged</a>&nbsp;<a href=\"https://en.wikipedia.org/wiki/V8_engine\" title=\"V8 engine\">V8 engine</a>, smaller in displacement but generating a higher power output than the 458&#39;s&nbsp;<a href=\"https://en.wikipedia.org/wiki/Naturally_aspirated_engine\" title=\"Naturally aspirated engine\">naturally aspirated engine</a>. The 488 GTB was named &quot;The Supercar of the Year 2015&quot; by car magazine&nbsp;<em><a href=\"https://en.wikipedia.org/wiki/Top_Gear_(magazine)\" title=\"Top Gear (magazine)\">Top Gear</a></em>, as well as becoming&nbsp;<em><a href=\"https://en.wikipedia.org/wiki/Motor_Trend\" title=\"Motor Trend\">Motor Trend</a></em>&#39;s 2017 &quot;Best Driver&#39;s Car&quot;.<a href=\"https://en.wikipedia.org/wiki/Ferrari_488#cite_note-7\">[7]</a>&nbsp;<a href=\"https://en.wikipedia.org/wiki/Jeremy_Clarkson\" title=\"Jeremy Clarkson\">Jeremy Clarkson</a>&nbsp;announced the 488 Pista as his 2019 Supercar of the Year.</p>",
+        "car_photo": "photos/28/11/2023/1902536891.jpg",
+        "car_photo_1": "photos/28/11/2023/1902536917.jpg",
+        "car_photo_2": "photos/28/11/2023/1902537043.jpg",
+        "car_photo_3": "photos/28/11/2023/1902537077.jpg",
+        "car_photo_4": "photos/28/11/2023/1902537082.jpg",
+        "features": "Cruise Control,Audio Interface,Airbags,Alarm System,ParkAssist,Reversing Camera,Auto Start/Stop",
+        "body_style": "Sport",
+        "interior": "Red",
+        "miles": 11000,
+        "doors": "2",
+        "passengers": 2,
+        "vin_no": "WP0BB2E81EKT178814",
+        "milage": 5,
+        "fuel_type": "Petrol",
+        "no_of_owners": "2",
+        "is_featured": true,
+        "created_date": "2023-11-28T15:40:41Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 2,
+    "fields": {
+        "car_title": "2017 Ford Edge",
+        "state": "AND",
+        "city": "Andijan",
+        "color": "black",
+        "model": "Edge",
+        "year": 2017,
+        "condition": "New",
+        "price": 70000,
+        "description": "<p>Most crossover SUVs fall into one of two categories: You&#39;ve got your two-row subcompact and compact crossovers and then the larger three-row large SUVs best suited for family duty. However, there are a few midsize models that slot between the compact and large crossovers. These offer superior rear seat accommodations compared to a compact crossover but without the large footprint of one of the big guys. Of these, the 2017 Ford Edge is a great choice if you want something modern, fuel-efficient and comfortable.</p>\r\n\r\n<p>The turbocharged 2.0-liter engine is smooth and offers respectable passing power when required, but it&#39;s a bit sluggish off the line and clearly designed more for efficiency. The 3.5-liter V6 packs a stronger punch, but given its lower fuel economy and extra cost, we&#39;d just stick with the base four-cylinder. If you really want power, the turbocharged 2.7-liter V6 is the way to go, delivering a serious wallop when your right foot asks for it. It sounds pretty cool, too. If we have one complaint about the Edge&#39;s powertrains, it&#39;s that the six-speed automatic transmission is sometimes reluctant to downshift when more power is needed.</p>",
+        "car_photo": "photos/28/11/2023/1901478607.jpg",
+        "car_photo_1": "photos/28/11/2023/1901478618.jpg",
+        "car_photo_2": "photos/28/11/2023/1901478646.jpg",
+        "car_photo_3": "photos/28/11/2023/1901478672.jpg",
+        "car_photo_4": "photos/28/11/2023/1901478687.jpg",
+        "features": "Cruise Control,Audio Interface,Airbags,Air Conditioning,Seat Heating,Direct Fuel Injection,Auto Start/Stop",
+        "body_style": "crossover SUV",
+        "interior": "grey",
+        "miles": 400,
+        "doors": "4",
+        "passengers": 5,
+        "vin_no": "WP0BB2E81EKT178814",
+        "milage": 5,
+        "fuel_type": "Petrol",
+        "no_of_owners": "0",
+        "is_featured": true,
+        "created_date": "2023-11-28T16:32:26Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 3,
+    "fields": {
+        "car_title": "2017 Ford F-250 Super Duty",
+        "state": "NAM",
+        "city": "Namangan",
+        "color": "black",
+        "model": "F-250 Super Duty",
+        "year": 2017,
+        "condition": "Used",
+        "price": 65000,
+        "description": "<p>Along with the other two models that make up the Ford Super Duty truck lineup (namely the F-350 and F-450, both reviewed separately), this full-size pickup has been reworked from the ground up. The improvements to the F-250 range from beefier underpinnings and more powerful engines to roomier interiors that can be equipped with a host of convenience and technology features, all designed to make this heavy-duty pickup a good deal more capable.</p>\r\n\r\n<p>Performance from the 6.2-liter gasoline V8 is robust enough that it&#39;s a realistic choice for many applications. That said, it pales in comparison to the 6.7-liter turbodiesel V8, which generates brisk unladen acceleration and moves heavy payloads or trailers without seeming to break a sweat thanks to its abundant torque.</p>",
+        "car_photo": "photos/28/11/2023/1894300905.jpg",
+        "car_photo_1": "photos/28/11/2023/1894300894.jpg",
+        "car_photo_2": "photos/28/11/2023/1894300920.jpg",
+        "car_photo_3": "photos/28/11/2023/1900155012.jpg",
+        "car_photo_4": "photos/28/11/2023/1900155133.jpg",
+        "features": "Cruise Control,Audio Interface,Airbags,Alarm System,Direct Fuel Injection,Wind Deflector,Bluetooth Handset",
+        "body_style": "Crew Cab",
+        "interior": "white",
+        "miles": 43000,
+        "doors": "2",
+        "passengers": 2,
+        "vin_no": "WP0BB2E81EKT171414",
+        "milage": 5,
+        "fuel_type": "Diesel",
+        "no_of_owners": "3",
+        "is_featured": true,
+        "created_date": "2023-11-28T16:32:26Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 4,
+    "fields": {
+        "car_title": "2017 Jaguar F-PACE",
+        "state": "NAM",
+        "city": "Namangan",
+        "color": "black",
+        "model": "Jaguar F-PACE",
+        "year": 2017,
+        "condition": "New",
+        "price": 45000,
+        "description": "<p>Jaguar&rsquo;s F-Pace is a compact luxury SUV writ larger, sportier, and sexier than is typical. It lives to thrust and parry with the similarly athletic Porsche Macan, yet it sacrifices little to nothing in practicality to attention-grabbing competitors. Underneath its seductive, F-Type sports-car-inspired styling hides a roomy cabin with best-in-class cargo space. An eight-speed automatic transmission and all-wheel drive are standard, and Jaguar gives buyers the choice of a miserly diesel inline-four engine and a powerful supercharged V-6.</p>\r\n\r\n<p>&nbsp;</p>",
+        "car_photo": "photos/28/11/2023/1902932542.jpg",
+        "car_photo_1": "photos/28/11/2023/1902932528.jpg",
+        "car_photo_2": "photos/28/11/2023/1902932514.jpg",
+        "car_photo_3": "photos/28/11/2023/1902932503.jpg",
+        "car_photo_4": "photos/28/11/2023/1902932503_qhUsKKP.jpg",
+        "features": "Cruise Control,Airbags,Seat Heating,Alarm System,ParkAssist,Auto Start/Stop,Wind Deflector",
+        "body_style": "SUV",
+        "interior": "white",
+        "miles": 220,
+        "doors": "4",
+        "passengers": 5,
+        "vin_no": "WP0BB2E81EKT178855",
+        "milage": 4,
+        "fuel_type": "Diesel",
+        "no_of_owners": "1",
+        "is_featured": true,
+        "created_date": "2023-11-28T16:32:26Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 5,
+    "fields": {
+        "car_title": "2018 Toyota 4Runner",
+        "state": "FER",
+        "city": "Fergana",
+        "color": "Metallic Aluminium",
+        "model": "Toyota 4Runner",
+        "year": 2018,
+        "condition": "Used",
+        "price": 51000,
+        "description": "<p>The Toyota 4Runner is an SUV in the traditional sense, with a body-on-frame construction and a solid rear axle like a pickup truck. It is one of the last SUVs built this way, giving it the rugged capability that made this type of vehicle attractive in the first place.</p>\r\n\r\n<p>The 2018 Toyota 4Runner favors the kind of terrain you won&#39;t find in a shopping mall parking lot. This truck-based SUV has all the hardware you&#39;ll need for off-road adventures. But those looking for daily-driver civility will find more comfortable and technologically superior solutions elsewhere.</p>\r\n\r\n<p>Each vehicle typically comes in multiple versions, although trim levels share many aspects. The ratings in this review are based on our full test of the&nbsp;<strong>2018 Toyota 4Runner Limited</strong>(4.0L V6 | 5-speed automatic | 4WD).</p>",
+        "car_photo": "photos/28/11/2023/1893633875.jpg",
+        "car_photo_1": "photos/28/11/2023/1893633879.jpg",
+        "car_photo_2": "photos/28/11/2023/1893633884.jpg",
+        "car_photo_3": "photos/28/11/2023/1896836883.jpg",
+        "car_photo_4": "photos/28/11/2023/1896836887.jpg",
+        "features": "Cruise Control,Audio Interface,Airbags,Seat Heating,Power Steering,Direct Fuel Injection,Auto Start/Stop",
+        "body_style": "SUV",
+        "interior": "black",
+        "miles": 4600,
+        "doors": "4",
+        "passengers": 7,
+        "vin_no": "WP0BB2E81EKT178888",
+        "milage": 4,
+        "fuel_type": "Petrol",
+        "no_of_owners": "3",
+        "is_featured": true,
+        "created_date": "2023-11-28T16:32:26Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 6,
+    "fields": {
+        "car_title": "2018 Toyota Corolla",
+        "state": "TASH",
+        "city": "Tashkent",
+        "color": "white",
+        "model": "Toyota Corolla",
+        "year": 2018,
+        "condition": "Used",
+        "price": 33000,
+        "description": "<p>Under the hood of the Corolla Hatchback is a new 2.0-liter four-cylinder engine that makes 168 horsepower. That&rsquo;s a 31-hp improvement over the outgoing Corolla iM. That car felt a bit sluggish, but this car doesn&rsquo;t. The bigger changes to the powertrain &mdash; for me &mdash; actually come with the transmissions.</p>\r\n\r\n<p>There will be two available transmissions on the hatchback: a continuously variable transmission or a six-speed manual. Both get changes that make them a bit more drivable and a bit easier to live with. Starting with the CVT: It is a CVT, but at the bottom of it is what we call a &ldquo;fixed gear.&rdquo; Essentially what it has is a 1st gear that behaves like 1st gear in a traditional automatic transmission, which gives it better off-the-line acceleration. One of the big complaints about CVTs is that they have a rubber-band feel that makes them really bad from a stop. In the Corolla Hatchback, acceleration from a stop feels much more linear and the car feels much more responsive.</p>",
+        "car_photo": "photos/28/11/2023/1900893299.jpg",
+        "car_photo_1": "photos/28/11/2023/1900893311.jpg",
+        "car_photo_2": "photos/28/11/2023/1900893319.jpg",
+        "car_photo_3": "photos/28/11/2023/1900893329.jpg",
+        "car_photo_4": "photos/28/11/2023/1900893391.jpg",
+        "features": "Cruise Control,Airbags,Air Conditioning,Seat Heating,ParkAssist,Auto Start/Stop,Bluetooth Handset",
+        "body_style": "Sedan",
+        "interior": "grey",
+        "miles": 78000,
+        "doors": "4",
+        "passengers": 5,
+        "vin_no": "WP0BB2E81EKT171414",
+        "milage": 2,
+        "fuel_type": "Petrol",
+        "no_of_owners": "1",
+        "is_featured": true,
+        "created_date": "2023-11-28T16:32:26Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 1,
+    "fields": {
+        "first_name": "Adakhamjon",
+        "last_name": "Nematov",
+        "car_id": 2,
+        "customer_need": "I'd like to know your best price for this",
+        "car_title": "2017 Ford Edge",
+        "city": "Andijan",
+        "state": "Andijan",
+        "email": "nematovadakhamjon@gmail.com",
+        "phone": "+998903684353",
+        "message": "I need some informations about Ford Edge",
+        "user_id": 2,
+        "create_date": "2023-12-01T16:46:24.725Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 2,
+    "fields": {
+        "first_name": "Adakhamjon",
+        "last_name": "Nematov",
+        "car_id": 2,
+        "customer_need": "I'm interested in this",
+        "car_title": "2017 Ford Edge",
+        "city": "Andijan",
+        "state": "Andijan",
+        "email": "learner98@gmail.com",
+        "phone": "",
+        "message": "",
+        "user_id": 1,
+        "create_date": "2023-12-01T20:54:04.209Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 3,
+    "fields": {
+        "first_name": "Adakhamjon",
+        "last_name": "Nematov",
+        "car_id": 1,
+        "customer_need": "I'm interested in this",
+        "car_title": "2017 Ferrari 488 GTB",
+        "city": "Andijan",
+        "state": "Andijan",
+        "email": "learner98@gmail.com",
+        "phone": "",
+        "message": "",
+        "user_id": 1,
+        "create_date": "2023-12-01T20:54:04.209Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 4,
+    "fields": {
+        "first_name": "Adakhamjon",
+        "last_name": "Nematov",
+        "car_id": 6,
+        "customer_need": "I'd like to test drive this",
+        "car_title": "2018 Toyota Corolla",
+        "city": "Andijan",
+        "state": "Andijan",
+        "email": "learner98@gmail.com",
+        "phone": "",
+        "message": "test",
+        "user_id": 1,
+        "create_date": "2023-12-01T22:15:40.872Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 5,
+    "fields": {
+        "first_name": "Joe",
+        "last_name": "Allen",
+        "car_id": 6,
+        "customer_need": "I'm interested in this",
+        "car_title": "2018 Toyota Corolla",
+        "city": "Tashkent",
+        "state": "Tashkent",
+        "email": "allen@gmail.com",
+        "phone": "",
+        "message": "2nd test",
+        "user_id": 2,
+        "create_date": "2023-12-01T22:15:40.872Z"
+    }
+},
+{
+    "model": "sites.site",
+    "fields": {
+        "domain": "localhost:8000",
+        "name": "localhost:8000"
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 1,
+    "fields": {
+        "provider": "facebook",
+        "provider_id": "",
+        "name": "Facebook login",
+        "client_id": "385391300496208",
+        "secret": "37a006d30b5a666d4befe1503ffd832c",
+        "key": "",
+        "settings": {},
+        "sites": [
+            [
+                "localhost:8000"
+            ]
+        ]
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 2,
+    "fields": {
+        "provider": "google",
+        "provider_id": "",
+        "name": "Google login",
+        "client_id": "197516415959-ccuoublu6gqk28705u0s6aemai2kpmj1.apps.googleusercontent.com",
+        "secret": "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",
+        "key": "",
+        "settings": {},
+        "sites": [
+            [
+                "localhost:8000"
+            ]
+        ]
+    }
+},
+{
+    "model": "socialaccount.socialaccount",
+    "pk": 1,
+    "fields": {
+        "user": [
+            "adakhamjon"
+        ],
+        "provider": "facebook",
+        "uid": "315040758024054",
+        "last_login": "2023-12-01T11:02:54.529Z",
+        "date_joined": "2023-11-30T18:42:41.624Z",
+        "extra_data": {
+            "id": "315040758024054",
+            "name": "Adakhamjon Nematov",
+            "last_name": "Nematov",
+            "first_name": "Adakhamjon"
+        }
+    }
+},
+{
+    "model": "socialaccount.socialaccount",
+    "pk": 2,
+    "fields": {
+        "user": [
+            "adakhamjon6"
+        ],
+        "provider": "google",
+        "uid": "103882471854896769491",
+        "last_login": "2023-12-01T10:51:15.053Z",
+        "date_joined": "2023-12-01T10:25:49.371Z",
+        "extra_data": {
+            "aud": "197516415959-ccuoublu6gqk28705u0s6aemai2kpmj1.apps.googleusercontent.com",
+            "azp": "197516415959-ccuoublu6gqk28705u0s6aemai2kpmj1.apps.googleusercontent.com",
+            "exp": 1701431475,
+            "iat": 1701427875,
+            "iss": "https://accounts.google.com",
+            "sub": "103882471854896769491",
+            "name": "Adakhamjon Nematov",
+            "locale": "ru",
+            "at_hash": "vGOORPpf9aX8poEkcqN1xA",
+            "picture": "https://lh3.googleusercontent.com/a/ACg8ocJLpp2lh3Sfdie7YNcsjulxkM6iWEEYl6DLci6O39gT=s96-c",
+            "given_name": "Adakhamjon",
+            "family_name": "Nematov"
+        }
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2023-11-28T11:29:37.480Z",
+        "user": [
+            "learner"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "488 GTB",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2023-11-28T11:33:30.001Z",
+        "user": [
+            "learner"
+        ],
+        "content_type": [
+            "pages",
+            "teams"
+        ],
+        "object_id": "1",
+        "object_repr": "John Smith",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2023-11-28T11:34:13.732Z",
+        "user": [
+            "learner"
+        ],
+        "content_type": [
+            "pages",
+            "teams"
+        ],
+        "object_id": "2",
+        "object_repr": "Martin Nelson",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2023-11-28T11:34:47.541Z",
+        "user": [
+            "learner"
+        ],
+        "content_type": [
+            "pages",
+            "teams"
+        ],
+        "object_id": "3",
+        "object_repr": "Stone Miller",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2023-11-28T11:35:10.339Z",
+        "user": [
+            "learner"
+        ],
+        "content_type": [
+            "pages",
+            "teams"
+        ],
+        "object_id": "4",
+        "object_repr": "Michella Carolyn",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2023-11-28T11:41:20.744Z",
+        "user": [
+            "learner"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "2",
+        "object_repr": "Edge",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2023-11-28T11:43:31.506Z",
+        "user": [
+            "learner"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "2",
+        "object_repr": "Edge",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2023-11-28T11:49:44.845Z",
+        "user": [
+            "learner"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "F-250 Super Duty",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2023-11-28T11:54:28.406Z",
+        "user": [
+            "learner"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "4",
+        "object_repr": "Jaguar F-PACE",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2023-11-28T12:01:01.785Z",
+        "user": [
+            "learner"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "5",
+        "object_repr": "Toyota 4Runner",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2023-11-28T12:04:10.900Z",
+        "user": [
+            "learner"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "6",
+        "object_repr": "Toyota Corolla",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2023-11-28T12:47:19.982Z",
+        "user": [
+            "learner"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "4",
+        "object_repr": "Jaguar F-PACE",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Car photo 4\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2023-11-30T16:07:28.622Z",
+        "user": [
+            "learner"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "1",
+        "object_repr": "learner",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2023-11-30T18:23:43.863Z",
+        "user": [
+            "learner"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Facebook login",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2023-11-30T18:25:05.308Z",
+        "user": [
+            "learner"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "1",
+        "object_repr": "localhost:8000",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2023-12-01T10:09:53.455Z",
+        "user": [
+            "learner"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "2",
+        "object_repr": "Google login",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}
+]
