@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/4.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.2/ref/settings/
 """
-
+import dj_database_url
 from pathlib import Path,os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -98,6 +98,8 @@ DATABASES = {
 
     }
 }
+DATABASES['default'] = dj_database_url.parse('postgres://car_commerce_user:cKFpk2h6kihvOPGOzFn24YvtwxX0C1IY@dpg-clmcbp1fb9qs739bbp3g-a.singapore-postgres.render.com/car_commerce')
+# 
 
 
 # Password validation
