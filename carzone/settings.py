@@ -61,7 +61,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'allauth.account.middleware.AccountMiddleware'
+    'allauth.account.middleware.AccountMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware'
 ]
 
 ROOT_URLCONF = 'carzone.urls'
@@ -136,7 +137,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
 STATIC_ROOT=os.path.join(BASE_DIR,'static')
 STATICFILES_DIRS=[
 os.path.join(BASE_DIR,'carzone/static'),
@@ -167,3 +168,5 @@ EMAIL_PORT = 587
 EMAIL_HOST_USER = 'mukhammadjonovich98@gmail.com'
 EMAIL_HOST_PASSWORD = 'ksis pfqy yvte vpgg'
 EMAIL_USE_TLS = True
+
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
