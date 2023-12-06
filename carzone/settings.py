@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-l@304b$ce_^vx7jfx4^szlv@=i317mfzc)o+qw&d9_%+b5bpq+'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = os.environ.get("DEBUG","True") == "True"
 
 ALLOWED_HOSTS = ["*"]
 LOGIN_REDIRECT_URL = 'dashboard'
@@ -89,18 +89,25 @@ WSGI_APPLICATION = 'carzone.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'cars_db',
-        'USER': 'postgres',
-        'PASSWORD': '011098',
-        'HOST': 'localhost'
-
+if not DEBUG:
+    DATABASES = {
+    'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
     }
-}
-DATABASES['default'] = dj_database_url.parse('postgres://car_commerce_user:cKFpk2h6kihvOPGOzFn24YvtwxX0C1IY@dpg-clmcbp1fb9qs739bbp3g-a.singapore-postgres.render.com/car_commerce')
-# 
+else:
+
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql',
+            'NAME': 'cars_db',
+            'USER': 'postgres',
+            'PASSWORD': '011098',
+            'HOST': 'localhost'
+
+        }
+    }
+
+# DATABASES['default'] = dj_database_url.parse('postgres://car_commerce_user:cKFpk2h6kihvOPGOzFn24YvtwxX0C1IY@dpg-clmcbp1fb9qs739bbp3g-a.singapore-postgres.render.com/car_commerce')
+# # 
 
 
 # Password validation
