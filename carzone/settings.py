@@ -11,9 +11,12 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 import dj_database_url
 from pathlib import Path,os
+import environ ,os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+env = environ.Env()
+environ.Env.read_env()
 
 
 # Quick-start development settings - unsuitable for production
@@ -47,10 +50,10 @@ INSTALLED_APPS = [
     'django.contrib.sites',
     'allauth',
     'allauth.account',
-    'allauth.socialaccount',
+    # 'allauth.socialaccount',
     #Providers
-    'allauth.socialaccount.providers.facebook',
-    'allauth.socialaccount.providers.google'
+    # 'allauth.socialaccount.providers.facebook',
+    # 'allauth.socialaccount.providers.google'
 ]
 
 MIDDLEWARE = [
@@ -85,30 +88,43 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'carzone.wsgi.application'
 
-
+# DATABASES = {
+#     'default':dj_database_url.config(
+#         default = 'postgresql://cars_db_rqsf_user:T9cw6AKd3HljDPZNIOHWi1QvwfORITTv@dpg-crm7f6ij1k6c73dlv5vg-a.singapore-postgres.render.com/cars_db_rqsf',
+#         conn_max_age=600,
+#         ssl_require=True
+#     )
+# }
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 
+# DATABASES = {
+#     'default':dj_database_url.parse(env('DATABASE_URL'))
+# }
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'cars_db',
+#         'USER': 'postgres',
+#         'PASSWORD': '011098',
+#         'HOST': 'localhost'
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'cars_db',
-        'USER': 'postgres',
-        'PASSWORD': '011098',
-        'HOST': 'localhost'
-
-    }
-}
+#     }
+# }
 # database_url = os.environ.get("DATABASE_URL")
-DATABASES['default'] = dj_database_url.parse('postgres://car_commerce_user:cKFpk2h6kihvOPGOzFn24YvtwxX0C1IY@dpg-clmcbp1fb9qs739bbp3g-a.singapore-postgres.render.com/car_commerce')
+# DATABASES['default'] = dj_database_url.parse('')
 # # # 
 
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
-
+DATABASES = {
+    'default':{
+        "ENGINE":"django.db.backends.sqlite3",
+        "NAME":BASE_DIR/ 'db.sqlite3'
+    }
+}
 AUTH_PASSWORD_VALIDATORS = [
     {
         'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
